@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorputih">#FFFF</color>
+    <color name="colorLavender">#F67</color>
+    <color name="ungu">#97298c</color>
+    <color name="pink">#e13e5d</color>
+    <color name="birufont">#506FC2</color>
+    <color name="putihtrans">#CCCCCC</color>
+    <color name="putihagakpink">#f3d3ce</color>
+    <color name="pinkungu">#d63759</color>
+    <color name="ungutua">#602f8a</color>
+    <color name="pinkpupus">#822447</color>
+    <color name="colorBlueSky">#6267</color>
+</resources>

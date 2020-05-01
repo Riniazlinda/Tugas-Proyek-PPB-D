@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="cobanavigasi.com.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_home_second" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_home_second"
+        android:name="cobanavigasi.com.ui.home.HomeSecondFragment"
+        android:label="@string/home_second"
+        tools:layout="@layout/fragment_home_second">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_diary"
+        android:name="cobanavigasi.com.DiaryFragment"
+        android:label="@string/menu_diary"
+        tools:layout="@layout/diary_fragment" />
+    <fragment
+        android:id="@+id/nav_statistic"
+        android:name="cobanavigasi.com.StatisticFragment"
+        android:label="@string/menu_statistic"
+        tools:layout="@layout/fragment_statistic" />
+    <fragment
+        android:id="@+id/nav_wordcloud"
+        android:name="cobanavigasi.com.WordCloudFragment"
+        android:label="@string/menu_wordcloud"
+        tools:layout="@layout/fragment_wordcloud" />
+
+    <fragment
+        android:id="@+id/nav_themes"
+        android:name="cobanavigasi.com.ThemesFragment"
+        android:label="@string/menu_themes"
+        tools:layout="@layout/fragment_themes" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="cobanavigasi.com.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+    <activity
+        android:id="@+id/nav_premium"
+        android:name="cobanavigasi.com.PremiumActivity"
+        android:label="@string/menu_premium"
+        tools:layout="@layout/activity_premium" />
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="cobanavigasi.com.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+    <fragment
+        android:id="@+id/nav_community"
+        android:name="cobanavigasi.com.CommunityFragment"
+        android:label="@string/menu_community"
+        tools:layout="@layout/fragment_community" />
+</navigation>
