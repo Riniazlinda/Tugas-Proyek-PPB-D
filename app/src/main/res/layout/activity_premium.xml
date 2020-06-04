@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme.NoActionBar"
+    android:background="@drawable/bckgrpremium"
+    tools:context=".PremiumActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="TREAT YOURSELF WITH PREMIUM"
+        android:textColor="@color/colorputih"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="PAY ONCE, USE FOREVER"
+        android:textColor="@color/putihagakpink"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/slideView"
+        android:layout_width="match_parent"
+        android:layout_height="450dp">
+    </androidx.viewpager.widget.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/dotsLayout"
+        android:layout_width="98dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_prem1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgr_btn1"
+        android:layout_gravity="center"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="Buy Premium for Rp 45.000,00"
+        android:textAllCaps="false"
+        android:textColor="@color/colorputih"/>
+
+    <Button
+        android:id="@+id/btn_prem2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgr_btn2"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="Thank's, maybe later"
+        android:textAllCaps="false"
+        android:textColor="@color/colorputih"/>
+</LinearLayout>
