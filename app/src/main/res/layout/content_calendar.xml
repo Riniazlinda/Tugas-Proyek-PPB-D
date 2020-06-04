@@ -3,10 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/backgrcalen"
-<<<<<<< HEAD
     android:theme="@style/AppTheme.NoActionBar"
-=======
->>>>>>> e68c69ce888f4f26cb7a946613f625957384ef81
     android:orientation="vertical">
 
     <ImageButton
