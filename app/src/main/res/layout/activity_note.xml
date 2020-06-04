@@ -4,7 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:theme="@style/AppTheme.NoActionBar"
+=======
+>>>>>>> e68c69ce888f4f26cb7a946613f625957384ef81
     tools:context=".NoteActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

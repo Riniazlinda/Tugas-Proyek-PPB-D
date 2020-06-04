@@ -2,14 +2,20 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+<<<<<<< HEAD
     android:id="@+id/layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+=======
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>>>>>>> e68c69ce888f4f26cb7a946613f625957384ef81
     android:background="@drawable/backgrthemes"
     tools:context=".ThemesFragment">
 
     <Button
+<<<<<<< HEAD
         android:id="@+id/centang"
         android:layout_width="45dp"
         android:layout_height="wrap_content"
@@ -36,56 +42,105 @@
         android:text="@string/reflexio_default"
         android:textAlignment="textStart"
         android:padding="20dp"
+=======
+        android:id="@+id/buttonSet1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/reflexio_default"
+        android:background="@android:color/transparent"
+        android:textAlignment="textStart"
+>>>>>>> e68c69ce888f4f26cb7a946613f625957384ef81
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.061"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+<<<<<<< HEAD
         app:layout_constraintVertical_bias="0.199"/>
+=======
+        app:layout_constraintVertical_bias="0.199"
+        android:paddingStart="15dp" />
+>>>>>>> e68c69ce888f4f26cb7a946613f625957384ef81
 
     <Button
         android:id="@+id/buttonSet2"
         android:layout_width="match_parent"
         android:layout_height="80dp"
+<<<<<<< HEAD
         android:background="@android:color/transparent"
         android:text="@string/night_sky"
         android:textAlignment="textStart"
         android:padding="20dp"
+=======
+        android:text="@string/night_sky"
+        android:background="@android:color/transparent"
+        android:textAlignment="textStart"
+>>>>>>> e68c69ce888f4f26cb7a946613f625957384ef81
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+<<<<<<< HEAD
         app:layout_constraintVertical_bias="0.333"/>
+=======
+        app:layout_constraintVertical_bias="0.333"
+        android:paddingStart="15dp"
+        />
+>>>>>>> e68c69ce888f4f26cb7a946613f625957384ef81
 
     <Button
         android:id="@+id/buttonSet3"
         android:layout_width="match_parent"
         android:layout_height="80dp"
+<<<<<<< HEAD
         android:background="@android:color/transparent"
         android:text="@string/pacific_forest"
         android:textAlignment="textStart"
         android:padding="20dp"
+=======
+        android:text="@string/pacific_forest"
+        android:background="@android:color/transparent"
+        android:textAlignment="textStart"
+>>>>>>> e68c69ce888f4f26cb7a946613f625957384ef81
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+<<<<<<< HEAD
         app:layout_constraintVertical_bias="0.471"/>
+=======
+        app:layout_constraintVertical_bias="0.471"
+        android:paddingStart="15dp"
+        />
+>>>>>>> e68c69ce888f4f26cb7a946613f625957384ef81
 
     <Button
         android:id="@+id/buttonSet4"
         android:layout_width="match_parent"
         android:layout_height="80dp"
+<<<<<<< HEAD
         android:background="@android:color/transparent"
         android:text="@string/choco_autumn"
         android:textAlignment="textStart"
         android:padding="20dp"
+=======
+        android:text="@string/choco_autumn"
+        android:background="@android:color/transparent"
+        android:textAlignment="textStart"
+>>>>>>> e68c69ce888f4f26cb7a946613f625957384ef81
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+<<<<<<< HEAD
         app:layout_constraintVertical_bias="0.605" />
 
+=======
+        app:layout_constraintVertical_bias="0.605"
+        android:paddingStart="15dp"
+        />
+>>>>>>> e68c69ce888f4f26cb7a946613f625957384ef81
 </androidx.constraintlayout.widget.ConstraintLayout>
