@@ -7,6 +7,24 @@
     android:background="@drawable/bckgrmydiary"
     tools:context=".DiaryFragment">
 
+    <Button
+        android:id="@+id/btn_cal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="98dp"
+        android:layout_marginEnd="278dp"
+        android:layout_marginRight="278dp"
+        android:layout_marginBottom="28dp"
+        android:background="@android:color/transparent"
+        android:drawableRight="@drawable/ictimeline"
+        android:text="Timeline "
+        app:layout_constraintBottom_toTopOf="@+id/buttonNote"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/buttonNote"
