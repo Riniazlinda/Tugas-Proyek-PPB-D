@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/pluspos2"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/bgr_btn_plus2"
+            android:layout_marginHorizontal="35dp"
+            android:text="+"
+            android:textSize="20dp"
+            android:textColor="@color/colorputih"/>
+
+        <Button
+            android:id="@+id/post1_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:background="@android:color/transparent"
+            android:layout_marginHorizontal="15dp"
+            android:text="Joy"
+            android:textColor="@color/hitam"
+            android:textAllCaps="false"
+            android:textSize="13dp"/>
+
+        <Button
+            android:id="@+id/post2_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:background="@android:color/transparent"
+            android:layout_marginRight="10dp"
+            android:text="Euphoria"
+            android:textColor="@color/hitam"
+            android:textAllCaps="false"
+            android:textSize="13dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="7dp"
+        android:layout_marginHorizontal="20dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/post3_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:background="@android:color/transparent"
+            android:layout_marginRight="5dp"
+            android:text="Hope"
+            android:textColor="@color/hitam"
+            android:textAllCaps="false"
+            android:textSize="13dp"/>
+
+        <Button
+            android:id="@+id/post4_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:background="@android:color/transparent"
+            android:layout_marginHorizontal="20dp"
+            android:text="Relief"
+            android:textColor="@color/hitam"
+            android:textAllCaps="false"
+            android:textSize="13dp"/>
+
+        <Button
+            android:id="@+id/post5_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:background="@android:color/transparent"
+            android:text="Care"
+            android:textColor="@color/hitam"
+            android:textAllCaps="false"
+            android:textSize="13dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="7dp"
+        android:layout_marginHorizontal="20dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/post6_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:background="@android:color/transparent"
+            android:layout_marginRight="5dp"
+            android:text="Glee"
+            android:textColor="@color/hitam"
+            android:textAllCaps="false"
+            android:textSize="13dp"/>
+
+        <Button
+            android:id="@+id/post7_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:background="@android:color/transparent"
+            android:layout_marginHorizontal="20dp"
+            android:text="Pleasure"
+            android:textColor="@color/hitam"
+            android:textAllCaps="false"
+            android:textSize="13dp"/>
+
+        <Button
+            android:id="@+id/post8_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:background="@android:color/transparent"
+            android:text="Delight"
+            android:textColor="@color/hitam"
+            android:textAllCaps="false"
+            android:textSize="13dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="7dp"
+        android:layout_marginHorizontal="20dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/post9_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:background="@android:color/transparent"
+            android:layout_marginRight="5dp"
+            android:text="Rapture"
+            android:textColor="@color/hitam"
+            android:textAllCaps="false"
+            android:textSize="13dp"/>
+
+        <Button
+            android:id="@+id/post10_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:background="@android:color/transparent"
+            android:layout_marginHorizontal="20dp"
+            android:text="Sympathy"
+            android:textColor="@color/hitam"
+            android:textAllCaps="false"
+            android:textSize="13dp"/>
+
+        <Button
+            android:id="@+id/post11_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:background="@android:color/transparent"
+            android:text="Gratefulness"
+            android:textColor="@color/hitam"
+            android:textAllCaps="false"
+            android:textSize="13dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

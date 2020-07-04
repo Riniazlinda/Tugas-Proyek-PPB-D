@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ReadnoteActivity"
+    android:theme="@style/AppTheme.NoActionBar"
+    android:background="@color/ungumuda">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            android:contentDescription="TODO" />
+
+
+        <ImageButton
+            android:id="@+id/ubahnote"
+            android:src="@drawable/ic_edit"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="150dp"
+            android:background="@drawable/bgr_btn2"/>
+
+        <ImageButton
+            android:id="@+id/hapusnote"
+            android:src="@drawable/ic_delete"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/bgr_btn2"/>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tgl_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:text="tanggal"
+                android:textSize="17dp"
+                android:textColor="@color/putihtrans"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/headline_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="headline"
+                android:textSize="23dp"
+                android:textColor="@color/colorputih"
+                android:background="@null" />
+
+
+            <LinearLayout
+                android:id="@+id/notes"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:orientation="vertical"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bgr_note_isi">
+                <TextView
+                    android:id="@+id/note_isi"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginVertical="20dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:background="@null"
+                    android:gravity="start"
+                    android:hint="Lelah sekali hari ini"
+                    android:textColorHint="@color/putihtrans"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/mymood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/mymood"
+                android:textSize="17dp"
+                android:textColor="@color/putihtrans"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/choosed_mood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:drawableLeft="@drawable/icmood4"
+                android:background="@drawable/bgr_btnblue"
+                android:gravity="center"
+                android:text="  Bad mood"
+                android:textSize="17dp"
+                android:textColor="@color/putihtrans"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/myemotions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/myemot"
+                android:textSize="17dp"
+                android:textColor="@color/putihtrans"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/choosed_emot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:padding="12dp"
+                android:background="@drawable/bgr_btn_plus2"
+                android:gravity="center"
+                android:text="Tiredness"
+                android:textSize="17dp"
+                android:textColor="@color/putihtrans"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/myacti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/myactiv"
+                android:textSize="17dp"
+                android:textColor="@color/putihtrans"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/choosed_activ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:padding="12dp"
+                android:background="@drawable/bgr_btn_plus1"
+                android:gravity="center"
+                android:text="Friends"
+                android:textSize="17dp"
+                android:textColor="@color/putihtrans"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tag_read"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/tag"
+                android:textSize="17dp"
+                android:textColor="@color/putihtrans"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:id="@+id/tags_edit"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bgr_note_isi">
+                <TextView
+                    android:id="@+id/tag_choosed"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_tag"
+                    android:layout_marginVertical="20dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:gravity="center"
+                    android:background="@drawable/bgr_btn_plus3"
+                    android:text="tags"
+                    android:textColor="@color/colorputih"
+                    android:textSize="14dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

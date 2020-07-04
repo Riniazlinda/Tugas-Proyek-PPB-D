@@ -19,7 +19,11 @@
 
     <string name="question_of_the_day">Question of the day</string>
     <string name="note_add">Add note</string>
+    <string name="whatmood">What is your mood today?</string>
+    <string name="pictday">Picture of the day</string>
     <string name="home_second">Home Second</string>
+    <string name="charleng">Character Length</string>
+    <string name="thernot">There is nothing to save</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">HOME KE DUA</string>
@@ -30,21 +34,41 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
+    <string name="thank">Thank\'s, maybe later</string>
+    <string name="buyprem">Buy Premium for Rp 45.000,00</string>
 
     <string name="add_note">Add note</string>
+    <string name="howwas">How was your day?</string>
+    <string name="changedate">Want to change the date?  </string>
     <string name="timeline">Timeline</string>
     <string name="reflexio_default">REFLEXIO DEFAULT</string>
     <string name="night_sky">NIGHT SKY</string>
     <string name="pacific_forest">PACIFIC FOREST</string>
     <string name="choco_autumn">CHOCO AUTUMN</string>
-    <string name="reminders">  REMINDERS</string>
-    <string name="remindertime">  REMINDER TIME</string>
-    <string name="backup">  BACKUP</string>
-    <string name="passcode">  PASSCODE</string>
-    <string name="privacy_polici">  PRIVACY POLICI</string>
+    <string name="reminders">    REMINDERS</string>
+    <string name="remindertime">    REMINDER TIME</string>
+    <string name="backup">    BACKUP</string>
+    <string name="passcode">    PASSCODE</string>
+    <string name="privacy_polici">    PRIVACY POLICI</string>
     <string name="how_was_your_day">How was your day?</string>
     <string name="add">+</string>
+    <string name="time">20:00</string>
+    <string name="simpan">Save</string>
+    <string name="simpannote">Save Note</string>
+    <string name="yournote">Your note</string>
+    <string name="write">Write your thoughts here...</string>
+    <string name="tag">Tag</string>
+    <string name="separate">Separate tags by spaces</string>
+    <string name="music">Music</string>
+    <string name="audio">Add audio</string>
+    <string name="photo">Photos</string>
+    <string name="mymood">My Mood</string>
+    <string name="myemot">My Emotions</string>
+    <string name="myactiv">My Activities</string>
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="reserve_copy">Reserve Copy</string>
+    <string name="into">LOG IN TO GOOGLE ACCOUNT</string>
+    <string name="restore_data">Restore Data</string>
 </resources>

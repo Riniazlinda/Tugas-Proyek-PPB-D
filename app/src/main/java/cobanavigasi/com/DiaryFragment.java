@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.LinearLayout;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -14,6 +15,7 @@ public class DiaryFragment extends Fragment {
 
     private DiaryViewModel diaryViewModel;
     private Button btn, btnCal;
+    private LinearLayout addnote;
 
 
 
@@ -28,13 +30,13 @@ public class DiaryFragment extends Fragment {
         btnCal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Calendar.class);
+                Intent intent = new Intent(getActivity(), CalendarActivity.class);
                 startActivity(intent);
             }
         });
 
-        btn= root.findViewById(R.id.buttonNote);
-        btn.setOnClickListener(new View.OnClickListener() {
+        addnote = root.findViewById(R.id.add_note);
+        addnote.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent note = new Intent( getContext(), NoteActivity.class);

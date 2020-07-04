@@ -14,12 +14,35 @@
             android:name=".NoteActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
+            android:name=".Note1Activity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".Note2Activity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ReadnoteActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".AddFeelActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".DoingActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
             android:name=".PremiumActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Calendar"
+            android:name=".CalendarActivity"
             android:label="@string/title_activity_calendar"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".BackupContent"
+            android:label="Backup"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".RemindContent"
+            android:label="Backup"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".TimepickerContent"
+            android:label="TimePicker"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"

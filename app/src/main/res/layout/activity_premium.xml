@@ -33,7 +33,7 @@
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/slideView"
         android:layout_width="match_parent"
-        android:layout_height="450dp">
+        android:layout_height="420dp">
     </androidx.viewpager.widget.ViewPager>
 
     <LinearLayout
@@ -52,7 +52,7 @@
         android:layout_gravity="center"
         android:layout_marginRight="40dp"
         android:layout_marginLeft="40dp"
-        android:text="Buy Premium for Rp 45.000,00"
+        android:text="@string/buyprem"
         android:textAllCaps="false"
         android:textColor="@color/colorputih"/>
 
@@ -65,7 +65,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="40dp"
         android:layout_marginLeft="40dp"
-        android:text="Thank's, maybe later"
+        android:text="@string/thank"
         android:textAllCaps="false"
         android:textColor="@color/colorputih"/>
 </LinearLayout>
